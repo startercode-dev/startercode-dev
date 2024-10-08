@@ -1,0 +1,207 @@
+@import 'tailwindcss/base';
+
+@import 'tailwindcss/components';
+@import './extractions/main.css';
+@import './extractions/project.css';
+
+@import 'tailwindcss/utilities';
+
+:root {
+    /* ---- BRAND COLORS ---- */
+    /* BLUE  */
+    --purple-50: #e9e9fb;
+    --purple-100: #d2d2f7;
+    --purple-200: #d2d2f7;
+    --purple-300: #bcbcf3;
+    --purple-400: #a5a5ef;
+    --purple-500: #8f8feb;
+    --purple-600: #7272bc;
+    --purple-700: #56568d;
+    --purple-800: #39395e;
+    --purple-900: #1d1d2f;
+    --purple-950: #0e0e17;
+    /* RED  */
+    --yellow-50: #fefce8;
+    --yellow-100: #fef9c3;
+    --yellow-200: #fef08a;
+    --yellow-300: #fde047;
+    --yellow-400: #fcd34d;
+    --yellow-500: #eab308;
+    --yellow-600: #ca8a04;
+    --yellow-700: #a16207;
+    --yellow-800: #854d0e;
+    --yellow-900: #713f12;
+    --yellow-950: #422006;
+    /* Grey Scale */
+    --grey-000: #ffffff;
+    --grey-100: #f3f4f6;
+    --grey-200: #e5e7eb;
+    --grey-300: #d1d5db;
+    --grey-400: #9ca3af;
+    --grey-500: #6b7280;
+    --grey-600: #4b5563;
+    --grey-700: #374151;
+    --grey-800: #1f2937;
+    --grey-900: #111827;
+
+    /* Section Padding  */
+    /* DESKTOP */
+    --D-section-2xl: 192px;
+    --D-section-xl: 160px;
+    --D-section-lg: 128px;
+    --D-section-md: 112px;
+    --D-section-sm: 96px;
+
+    /* TABLET */
+    --T-section-2xl: 96px;
+    --T-section-xl: 80px;
+    --T-section-lg: 64px;
+    --T-section-md: 56px;
+    --T-section-sm: 48px;
+
+    /* MOBILE */
+    --M-section-2xl: 48px;
+    --M-section-xl: 46px;
+    --M-section-lg: 46px;
+    --M-section-md: 46px;
+    --M-section-sm: 46px;
+
+    --max-container-width: 1512px;
+
+    @media only screen and (min-width: 2200px) {
+        --max-container-width: 1920px;
+    }
+}
+
+/* @media (prefers-color-scheme: dark) {
+    :root {
+    }
+} */
+
+@layer base {
+    /* --- HEADER TEXT --- */
+    h1.bold,
+    h2.bold,
+    h3.bold,
+    h4.bold,
+    h5.bold {
+        @apply font-semibold;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        @apply font-header font-medium;
+    }
+    .section .heading-1,
+    .section .heading-2,
+    .section .heading-3,
+    .section .heading-4,
+    .section .heading-5 {
+        @apply text-1;
+    }
+
+    .theme-invert .heading-1,
+    .theme-invert .heading-2,
+    .theme-invert .heading-3,
+    .theme-invert .heading-4,
+    .theme-invert .heading-5 {
+        @apply text-invert-1;
+    }
+    .heading-1 {
+        @apply text-8xl leading-[1.11] max-sm:text-2xl 3xl:text-9xl 3xl:leading-tight;
+    }
+    .heading-2 {
+        @apply text-7xl leading-[1.11] max-sm:text-3xl 3xl:text-8xl 3xl:leading-tight;
+    }
+    .heading-3 {
+        @apply text-5xl leading-[1.11] max-sm:text-xl 3xl:text-6xl 3xl:leading-tight;
+    }
+    .heading-4 {
+        @apply text-4xl leading-[1.30] max-sm:text-xl 3xl:text-5xl 3xl:leading-normal;
+    }
+    .heading-5 {
+        @apply text-3xl leading-[1.20] max-sm:text-xl 3xl:text-4xl 3xl:leading-tight;
+    }
+    .heading-6 {
+        @apply text-2xl leading-[1.20] max-sm:text-lg 3xl:text-3xl 3xl:leading-tight;
+    }
+
+    /* --- BODY TEXT --- */
+    .section p.semibold,
+    .section span.semibold,
+    .section a.semibold,
+    .theme-invert p.semibold,
+    .theme-invert span.semibold,
+    .theme-invert a.semibold {
+        @apply font-medium;
+    }
+    .section p.bold,
+    .section span.bold,
+    .section a.bold,
+    .theme-invert p.bold,
+    .theme-invert span.bold,
+    .theme-invert a.bold {
+        @apply font-semibold;
+    }
+    .section p,
+    .theme-invert p {
+        @apply font-body font-normal;
+    }
+
+    .section .title-100,
+    .section .title-200,
+    .section .title-300,
+    .section .base-100 {
+        @apply font-body font-light text-2;
+    }
+    .section .base-200,
+    .section .base-300,
+    .section .base-400 {
+        @apply font-body text-3;
+    }
+    .theme-invert .title-100,
+    .theme-invert .title-200,
+    .theme-invert .title-300,
+    .theme-invert .base-100 {
+        @apply font-body text-invert-2;
+    }
+    .theme-invert .base-200,
+    .theme-invert .base-200,
+    .theme-invert .base-400 {
+        @apply font-body text-invert-3;
+    }
+    .title-100 {
+        @apply text-3xl leading-[1.62] max-sm:text-base 3xl:text-4xl 3xl:leading-relaxed;
+    }
+    .title-200 {
+        @apply text-2xl leading-[1.62] max-sm:text-base 3xl:text-3xl 3xl:leading-relaxed;
+    }
+    .title-300 {
+        @apply text-xl leading-[1.62] max-sm:text-sm 3xl:text-2xl 3xl:leading-relaxed;
+    }
+    .base-100 {
+        @apply text-base leading-[1.60] 3xl:text-lg 3xl:leading-relaxed;
+    }
+    .base-200 {
+        @apply text-sm leading-loose 3xl:text-base;
+    }
+    .base-300 {
+        @apply text-xs leading-loose 3xl:text-sm;
+    }
+
+    /* LINKS & BUTTONS */
+    button.link-1,
+    a.link-1 {
+        @apply base-100 rounded-secondary cursor-pointer font-normal text-1 hover:text-grey-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-5;
+    }
+    button.link-2,
+    a.link-2 {
+        @apply base-100 rounded-secondary cursor-pointer font-light !text-2 hover:!text-1 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-5;
+    }
+    button.link-3,
+    a.link-3 {
+        @apply base-200 rounded-secondary cursor-pointer font-normal hover:text-grey-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-5;
+    }
+}

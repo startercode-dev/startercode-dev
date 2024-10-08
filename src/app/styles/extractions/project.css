@@ -1,0 +1,109 @@
+/* PROJECT SPECIFIC CUSTOM CLASSES  */
+.button-primary {
+    @apply base-100 inline-block max-w-[285px] cursor-pointer rounded-full bg-white/10 px-1 py-3 text-center font-body !font-normal text-grey-100 ring-2 ring-grey-100 backdrop-blur-lg transition-colors duration-300 ease-in-out hover:!bg-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-5 max-sm:py-3;
+}
+.button-inverted {
+    @apply base-100 inline-block max-w-[285px] cursor-pointer rounded-full bg-transparent px-7 py-3 text-center text-grey-100 ring-2 ring-grey-100 hover:bg-gray-300/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-5 max-sm:py-3;
+}
+.input-primary {
+    @apply rounded-primary max-h-[48px] w-full px-4 py-3 ring-1 ring-100 placeholder:text-grey-400 focus:ring-2 focus:ring-inset focus:ring-primary-5 sm:text-sm sm:leading-6;
+}
+.textarea-primary {
+    @apply rounded-primary w-full px-4 py-3 ring-1 ring-100 placeholder:text-grey-400 focus:ring-2 focus:ring-inset focus:ring-primary-5 sm:text-sm sm:leading-6;
+}
+.select-primary {
+    @apply base-100 rounded-primary h-full appearance-none px-4 py-3 text-2 ring-1 ring-100 focus:ring-2 focus:ring-inset focus:ring-indigo-600;
+}
+.card {
+    @apply rounded-primary p-6 shadow-lg ring-1 ring-100 max-sm:rounded-primary-mobile;
+}
+.card--secondary {
+    @apply card rounded-secondary-desktop bg-1 max-sm:rounded-secondary-mobile;
+}
+
+.sub-headers {
+    @apply heading-6 bold text-accent-3;
+}
+
+/* GRADIENT BORDER  */
+.border-gradient::before {
+    content: '';
+    position: absolute;
+    opacity: 0.5;
+    inset: 0;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    background: linear-gradient(
+            140deg,
+            var(--purple-300) 50%,
+            var(--yellow-500)
+        )
+        border-box;
+    -webkit-mask:
+        linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    mask:
+        linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+}
+
+/* GRADIENT BORDER ANIMATION  */
+@property --gradient-angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
+.animation-gradient-border::before,
+.animation-gradient-border::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -10;
+    margin: -4px;
+    border-radius: 24px;
+    background: linear-gradient(45deg, var(--yellow-400), var(--purple-700));
+}
+
+@media only screen and (max-width: 640px) {
+    .animation-gradient-border::before,
+    .animation-gradient-border::after {
+        border-radius: 8px;
+    }
+}
+
+.sb-buttton-gradient-border::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -10;
+    margin: -2px;
+    border-radius: 26px;
+}
+
+.marquee {
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.marquee-content {
+    display: flex;
+    animation: marquee 90s linear infinite running;
+}
+
+.marquee-tag {
+    margin: 0 24px;
+    transition: all 0.7s ease;
+}
+
+/* @keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translate(-50%);
+    }
+} */

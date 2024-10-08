@@ -1,0 +1,146 @@
+/* .section {
+    @apply px-9 max-lg:px-7 max-sm:px-4;
+} */
+.theme-invert {
+    @apply bg-invert-1;
+}
+/* .header {
+    @apply px-9 max-lg:px-0;
+} */
+.section-container {
+    @apply mx-auto max-w-container px-9 max-lg:px-7 max-sm:px-4;
+}
+.content-container {
+    @apply px-8 max-lg:px-7 max-sm:px-4 3xl:px-12;
+}
+
+/* SECTION PADDINGS */
+/* 2xl */
+.pt-section-2xl {
+    @apply pt-[var(--D-section-2xl)] max-lg:pt-[var(--T-section-2xl)] max-sm:pt-[var(--M-section-2xl)];
+}
+.pb-section-2xl {
+    @apply pb-[var(--D-section-2xl)] max-lg:pb-[var(--T-section-2xl)] max-sm:pb-[var(--M-section-2xl)];
+}
+.py-section-2xl {
+    @apply py-[var(--D-section-2xl)] max-lg:py-[var(--T-section-2xl)] max-sm:py-[var(--M-section-2xl)];
+}
+
+/* xl */
+.pt-section-xl {
+    @apply pt-[var(--D-section-xl)] max-lg:pt-[var(--T-section-xl)] max-sm:pt-[var(--M-section-xl)];
+}
+.pb-section-xl {
+    @apply pb-[var(--D-section-xl)] max-lg:pb-[var(--T-section-xl)] max-sm:pb-[var(--M-section-xl)];
+}
+.py-section-xl {
+    @apply py-[var(--D-section-xl)] max-lg:py-[var(--T-section-xl)] max-sm:py-[var(--M-section-xl)];
+}
+
+/* lg */
+.pt-section-lg {
+    @apply pt-[var(--D-section-lg)] max-lg:pt-[var(--T-section-lg)] max-sm:pt-[var(--M-section-lg)];
+}
+.pb-section-lg {
+    @apply pb-[var(--D-section-lg)] max-lg:pb-[var(--T-section-lg)] max-sm:pb-[var(--M-section-lg)];
+}
+.py-section-lg {
+    @apply py-[var(--D-section-lg)] max-lg:py-[var(--T-section-lg)] max-sm:py-[var(--M-section-lg)];
+}
+
+/* md */
+.pt-section-md {
+    @apply pt-[var(--D-section-md)] max-lg:pt-[var(--T-section-md)] max-sm:pt-[var(--M-section-md)];
+}
+.pb-section-md {
+    @apply pb-[var(--D-section-md)] max-lg:pb-[var(--T-section-md)] max-sm:pb-[var(--M-section-md)];
+}
+.py-section-md {
+    @apply py-[var(--D-section-md)] max-lg:py-[var(--T-section-md)] max-sm:py-[var(--M-section-md)];
+}
+
+/* sm */
+.pt-section-sm {
+    @apply pt-[var(--D-section-sm)] max-lg:pt-[var(--T-section-sm)] max-sm:pt-[var(--M-section-sm)];
+}
+.pb-section-sm {
+    @apply pb-[var(--D-section-sm)] max-lg:pb-[var(--T-section-sm)] max-sm:pb-[var(--M-section-sm)];
+}
+.py-section-sm {
+    @apply py-[var(--D-section-sm)] max-lg:py-[var(--T-section-sm)] max-sm:py-[var(--M-section-sm)];
+}
+
+/* SECTION MARGIN */
+/* 2xl */
+.mt-section-2xl {
+    @apply mt-[var(--D-section-2xl)] max-lg:mt-[var(--T-section-2xl)] max-sm:mt-[var(--M-section-2xl)];
+}
+.mb-section-2xl {
+    @apply mb-[var(--D-section-2xl)] max-lg:mb-[var(--T-section-2xl)] max-sm:mb-[var(--M-section-2xl)];
+}
+
+/* xl */
+.mt-section-xl {
+    @apply mt-[var(--D-section-xl)] max-lg:mt-[var(--T-section-xl)] max-sm:mt-[var(--M-section-xl)];
+}
+.mb-section-xl {
+    @apply mb-[var(--D-section-xl)] max-lg:mb-[var(--T-section-xl)] max-sm:mb-[var(--M-section-xl)];
+}
+
+/* lg */
+.mt-section-lg {
+    @apply mt-[var(--D-section-lg)] max-lg:mt-[var(--T-section-lg)] max-sm:mt-[var(--M-section-lg)];
+}
+.mb-section-lg {
+    @apply mb-[var(--D-section-lg)] max-lg:mb-[var(--T-section-lg)] max-sm:mb-[var(--M-section-lg)];
+}
+
+/* md */
+.mt-section-md {
+    @apply mt-[var(--D-section-md)] max-lg:mt-[var(--T-section-md)] max-sm:mt-[var(--M-section-md)];
+}
+.mb-section-md {
+    @apply mb-[var(--D-section-md)] max-lg:mb-[var(--T-section-md)] max-sm:mb-[var(--M-section-md)];
+}
+
+/* sm */
+.mt-section-sm {
+    @apply mt-[var(--D-section-sm)] max-lg:mt-[var(--T-section-sm)] max-sm:mt-[var(--M-section-sm)];
+}
+.mb-section-sm {
+    @apply pb-[var(--D-section-sm)] max-lg:pb-[var(--T-section-sm)] max-sm:pb-[var(--M-section-sm)];
+}
+
+/* CONTENT MARGIN  */
+.mb-content-xs {
+    @apply mb-1;
+}
+.mb-content-sm {
+    @apply mb-3;
+}
+.mb-content-md {
+    @apply mb-5 max-sm:mb-5;
+}
+.mb-content-lg {
+    @apply mb-9 max-sm:mb-7;
+}
+.mb-content-xl {
+    @apply mb-12 max-sm:mb-8;
+}
+.mb-content-2xl {
+    @apply mb-16 max-sm:mb-9;
+}
+.mb-content-3xl {
+    @apply mb-20 max-sm:mb-12;
+}
+.mb-content-4xl {
+    @apply mb-24 max-sm:mb-14;
+}
+
+/* BORDER RADIUS */
+.rounded-primary {
+    @apply rounded-primary-desktop max-sm:rounded-primary-mobile;
+}
+.rounded-secondary {
+    @apply rounded-secondary-desktop max-sm:rounded-secondary-mobile;
+}
