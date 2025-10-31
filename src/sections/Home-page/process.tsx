@@ -176,8 +176,7 @@ export default function Process() {
             <div className="header-content sticky top-0 flex h-svh flex-col justify-center will-change-transform max-[1367px]:h-fit max-[1367px]:pb-[calc(30svh)] max-sm:h-svh max-sm:pb-0">
               <div className="grid grid-cols-4 ">
                 <h2 className="heading-2 content-container mb-content-lg col-span-3 max-w-[1131px] text-1 max-[1378px]:col-span-4 max-[1000px]:text-5xl max-sm:mx-auto max-sm:max-w-lg max-sm:text-center max-sm:text-2xl 3xl:max-w-[1310px]">
-                  <span className="text-primary-5">Stand out</span> with
-                  innovative functionalities and a unique web design
+                  Your Business Isn’t Generic, Your Website Shouldn’t Be Either
                 </h2>
                 <div className="relative col-start-4 w-full max-[1378px]:hidden">
                   <Image
@@ -192,9 +191,10 @@ export default function Process() {
               </div>
               <div className="grid grid-cols-4 max-lg:flex max-lg:flex-col">
                 <p className="title-200 content-container col-span-3 max-w-[900px] max-sm:mx-auto max-sm:max-w-lg max-sm:text-center 3xl:max-w-[1080px]">
-                  Give your clients the full web experience with a creative web
-                  design and highly functional web solutions customized to your
-                  business.
+                  We develop websites based on your objectives, audience trends,
+                  and actual business results. Whether it’s a custom feature,
+                  interactive UI, or just a smarter flow, we build experiences
+                  that feel purposeful from the first click.
                 </p>
 
                 <div className="relative col-start-4 mb-56 max-lg:mb-36 max-lg:grid max-lg:grid-cols-4 max-sm:block 3xl:mb-72">
@@ -236,16 +236,17 @@ export default function Process() {
                           01
                         </span>
                         <h4 className="heading-1 bold max-w-[998px] max-xl:max-w-full max-[1000px]:text-7xl max-[780px]:text-6xl max-sm:mx-auto max-sm:max-w-sm max-sm:text-center max-sm:text-2xl 3xl:max-w-[1200px]">
-                          Consult and create your custom plan
+                          Start with a Strategic Plan
                         </h4>
                       </div>
                     </div>
                     {/* MOBILE PROCESS 1 DESCRIPTION  */}
                     <div className="mt-4 hidden grid-cols-4 max-xl:grid max-sm:block">
                       <p className="title-300 content-container relative col-span-3 col-start-2 max-sm:mx-auto max-sm:max-w-md max-sm:pb-10 max-sm:text-center">
-                        Our process begins with an in-depth consultation to
-                        understand your unique goals and vision. Based on these
-                        insights, we create a tailored plan for your project.{' '}
+                        We begin with a conversation about your business goals,
+                        brand identity, and audience needs. This helps us build
+                        a strategic web design and development plan that aligns
+                        with your vision.{' '}
                       </p>
                     </div>
                     <div className="relative hidden h-4 w-full max-xl:block max-sm:hidden">
@@ -319,9 +320,10 @@ export default function Process() {
                   {/* DESKTOP PROCESS 1 DESCRIPTION  */}
                   <div className="mt-4 grid grid-cols-4 max-xl:hidden">
                     <p className="title-300 content-container relative col-span-2 col-start-3">
-                      Our process begins with an in-depth consultation to
-                      understand your unique goals and vision. Based on these
-                      insights, we create a tailored plan for your project.{' '}
+                      We begin with a conversation about your business goals,
+                      brand identity, and audience needs. This helps us build a
+                      strategic web design and development plan that aligns with
+                      your vision.{' '}
                     </p>
                   </div>
                 </div>
@@ -357,16 +359,17 @@ export default function Process() {
                         02
                       </span>
                       <h4 className="heading-1 bold max-w-[782px] max-xl:mb-8 max-[1000px]:text-7xl max-[780px]:text-6xl max-sm:mx-auto max-sm:mb-4 max-sm:max-w-sm max-sm:text-center max-sm:text-2xl 3xl:max-w-[1045px]">
-                        Implement your unique strategy
+                        High Impact UI/UX Design
                       </h4>
                       {/* MOBILE PROCESS 2 DESCRIPTION  */}
                       <div className="hidden grid-cols-4 max-xl:grid max-sm:mx-auto max-sm:block">
                         <p className="title-300 content-container col-span-3 col-start-2 max-sm:max-w-md max-sm:pb-10 max-sm:text-center">
-                          Once the custom plan is approved, our team of expert
-                          developers and designers will work to bring your
-                          vision to life. We implement the latest technologies
-                          and best practices to ensure your deliverable stands
-                          the test of time.
+                          Our team creates smooth user experiences and user
+                          interfaces that are easy to use for your target
+                          demographic. Using modern UI/UX principles and
+                          responsive design best practices, every layout,
+                          interaction, and element is created to represent your
+                          brand.
                         </p>
                       </div>
                       {/* MOBILE PROCESS 2 LINE  */}
@@ -397,11 +400,11 @@ export default function Process() {
                   {/* DESKTOP PROCESS 2 DESCRIPTION  */}
                   <div className="grid grid-cols-4 max-xl:hidden">
                     <p className="title-300 content-container col-span-2 col-start-2">
-                      Once the custom plan is approved, our team of expert
-                      developers and designers will work to bring your vision to
-                      life. We implement the latest technologies and best
-                      practices to ensure your deliverable stands the test of
-                      time.
+                      Our team creates smooth user experiences and user
+                      interfaces that are easy to use for your target
+                      demographic. Using modern UI/UX principles and responsive
+                      design best practices, every layout, interaction, and
+                      element is created to represent your brand.
                     </p>
                   </div>
                   {/* DESKTOP PROCESS 2 LINE  */}
@@ -436,7 +439,7 @@ export default function Process() {
                   </span>
                   <div className="mb-10 grid w-full grid-cols-4 max-sm:mb-4">
                     <h4 className="heading-1 bold content-container col-span-3 col-start-1 max-w-[915px] max-xl:col-span-4 max-xl:max-w-none max-[1000px]:text-7xl max-[780px]:text-6xl max-sm:mx-auto max-sm:max-w-sm max-sm:text-center max-sm:text-2xl 3xl:max-w-[1300px]">
-                      Finalize and show it to the world
+                      Develop, Refine, and Launch
                     </h4>
                   </div>
                   <div className="max-lg:flex max-lg:flex-col lg:grid lg:grid-cols-4">
@@ -469,11 +472,11 @@ export default function Process() {
                     <div className="relative col-span-2 col-start-3 h-full w-full max-lg:order-1 max-lg:mb-0 max-lg:grid max-lg:grid-cols-4 max-sm:block lg:row-span-1">
                       <div className="max-lg:col-span-3 max-lg:col-start-1 max-lg:row-span-1 ">
                         <p className="title-300 content-container max-sm:mx-auto max-sm:max-w-sm max-sm:pb-10 max-sm:text-center">
-                          In the final phase, we conduct thorough testing and
-                          examination to ensure every detail is fully
-                          functional. We also leave room for revisions so that
-                          the final product aligns perfectly with your
-                          expectations.
+                          We follow mobile-first development practices and the
+                          latest standards to build clean, scalable websites.
+                          Before launch, we polish every element together,
+                          ensuring fast load times, full responsiveness across
+                          devices, and flawless performance.
                         </p>
                       </div>
                     </div>

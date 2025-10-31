@@ -94,18 +94,14 @@ export default function Hero() {
           <div className="hero-content relative z-10 flex w-full flex-col items-center">
             <h1 className="content-container heading-2 bold mb-content-lg flex w-full max-w-[1223px] flex-col text-center max-xl:max-w-[832px] max-sm:text-3xl 3xl:mb-14 3xl:max-w-[1600px]">
               <div className="hero-headline mb-2 3xl:mb-5">
-                <span className="text-primary-5">Creative</span> web design and{' '}
-                <span className="text-primary-5">Custom</span> software
-                development
+                <span className="!text-accent-3">Creative</span> Web Design and
+                Development Company in{' '}
+                <span className="text-primary-5">San Francisco</span>
               </div>
-              <span className="title-100 semibold hero-headline subheadline pl-4 !text-accent-3">
-                for your business
-              </span>
             </h1>
             <p className="hero-description title-300 mb-content-xl content-container max-w-[662px] text-center max-xl:max-w-[832px] 3xl:max-w-[820px]">
-              Don’t hinder your business growth with a poor website. Breathe
-              life into your user experience, and offer all the necessary
-              functionalities for your clients.
+              Our websites are designed to grow with you, helping you stand out,
+              communicate your value, and convert more of the right leads.
             </p>
             <div className="hero-ctas grid w-full grid-cols-4 will-change-transform max-lg:grid-flow-row max-lg:gap-y-5 max-lg:px-8 max-md:grid-cols-2 max-md:px-0 max-sm:flex-col">
               <div className="col-start-2 flex justify-center max-lg:col-span-2 max-lg:col-end-4 max-md:col-start-1 max-md:px-4">

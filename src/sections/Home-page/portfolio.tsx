@@ -10,7 +10,7 @@ const portfolioDetails = [
   {
     name: 'Neural Consult',
     image: 'home-portfolio-img-neuralConsult.jpg',
-    href: 'https://neural-consult.vercel.app/',
+    href: 'https://neuralconsult.com/',
     label: 'Web Design Portfolio Project - Neural Consult',
     title: 'Check out our web design portfolio project - Neural Consult',
     description:
@@ -125,7 +125,7 @@ export default function Portfolio() {
         {/* HEADER HEIGHT SPACING */}
         <div className="flex w-full flex-col opacity-0">
           <span className="heading-2 bold mb-content-md text-center">
-            Creative Web Design{' '}
+            Our Web Design and Development{' '}
             <span className="bg-gradient-to-r from-accent-5 to-grey-000 bg-clip-text text-transparent">
               Portfolio
             </span>
@@ -160,14 +160,16 @@ export default function Portfolio() {
               <div className="relative w-full">
                 <div className="header-content-portfolio absolute bottom-0 left-1/2 flex w-full -translate-x-1/2 flex-col">
                   <h2 className="heading-2 bold mb-content-md text-center">
-                    Creative Web Design{' '}
+                    Our Web Design and Development{' '}
                     <span className="bg-gradient-to-r from-accent-5 to-grey-000 bg-clip-text text-transparent">
                       Portfolio
                     </span>
                   </h2>
                   <p className="title-300 mb-content-4xl mx-auto max-w-[650px] text-center 3xl:max-w-[800px]">
-                    Our portfolio projects comprise of diverse creative web
-                    designs and custom software development.
+                    Take a look at the websites we’ve designed and developed.
+                    Every project consists of responsive development, UI/UX
+                    design, and personalized message based on customer
+                    objectives.
                   </p>
                 </div>
               </div>

@@ -16,9 +16,9 @@ const body = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Startercode: Creative Web Design & Custom Software Development',
+  title: 'Web Design & Development Company in San Francisco, CA | Startercode',
   description:
-    'Startercode is a San Francisco based web development company that provides creative web design, custom software development and web optimization for businesses.',
+    'We’re a web development company in San Francisco, CA. We build websites that elevate your brand, connect with your audience, and help bring in consistent leads.',
 };
 
 export default function RootLayout({

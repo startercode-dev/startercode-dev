@@ -168,7 +168,7 @@ export default function Home() {
               <Testimony />
               <Contact
                 header={
-                  'Tell us about your business website ideas. Get a free consultation!'
+                  'Let’s talk about what’s not working and what’s possible'
                 }
               />
             </main>
