@@ -9,12 +9,52 @@ import PortfolioCarousel from '@/components/PortfolioCarousel';
 const portfolioDetails = [
   {
     name: 'Neural Consult',
-    image: 'home-portfolio-img-neuralConsult.jpg',
+    image: 'home-portfolio-img-neuralConsult.png',
     href: 'https://neuralconsult.com/',
     label: 'Web Design Portfolio Project - Neural Consult',
     title: 'Check out our web design portfolio project - Neural Consult',
     description:
       'Landing page and application design and development for an Artifical Intelligence Medical Studying Web Application',
+    darken: true,
+  },
+  {
+    name: 'Payroll Easy',
+    image: 'home-portfolio-img-payrollEasy.jpg',
+    href: 'https://payrolleasy.org/',
+    label: 'Web Design Portfolio Project - Payroll Easy',
+    title: 'Check out our web design portfolio project - Payroll Easy',
+    description:
+      'Website design and development for a payroll, acccounting and tax service company that specializes in small business payroll solutions',
+    darken: true,
+  },
+  {
+    name: 'MTC Mans',
+    image: 'home-portfolio-img-mtcmans.jpg',
+    href: 'https://mtcmans.com/',
+    label: 'Web Design Portfolio Project - MTC Mans',
+    title: 'Check out our web design portfolio project - MTC Mans',
+    description:
+      'Website design and development for a wholesale party goods company within San Francisco, CA',
+    darken: true,
+  },
+  {
+    name: 'Chromatic Data',
+    image: 'home-portfolio-img-chromaticData.jpg',
+    href: 'https://chromaticdata.com/',
+    label: 'Web Design Portfolio Project - Chromatic Data',
+    title: 'Check out our web design portfolio project - Chromatic Data',
+    description:
+      'Website design and development for a company that offers synthetic data generation and management',
+    darken: true,
+  },
+  {
+    name: 'Gwynn CPA',
+    image: 'home-portfolio-img-gwynncpa.jpg',
+    href: 'https://gwynncpas.com/',
+    label: 'Web Design Portfolio Project - Gwynn CPA',
+    title: 'Check out our web design portfolio project - Gwynn CPA',
+    description:
+      'Website design and development for a certified public accounting firm that specialize in financial auditing based in Dallas, TX',
     darken: true,
   },
   {

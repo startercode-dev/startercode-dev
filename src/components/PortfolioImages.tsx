@@ -25,7 +25,7 @@ export default function PortfolioImages({ item }) {
         width={1512}
         height={982}
         priority
-        quality={1}
+        unoptimized
         alt={item.label}
       />
       <Image
